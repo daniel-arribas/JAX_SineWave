@@ -5,13 +5,13 @@ Este tutorial consistirá en realizar una Red Neuronal Sencilla que adivina la f
 ## Estructura de proyecto
 
 ```txt
-JAX_tutorial                                                                       │
-    ├── config.json                                                                    │
-    ├── dataset.py                                                                     │
-    ├── loss.py                                                                        │
-    ├── model.py                                                                       │
-    ├── README.md                                                                      │
-    ├── test.py                                                                        │
+JAX_SineWave                                                                       
+    ├── config.json                                                                    
+    ├── dataset.py                                                                     
+    ├── loss.py                                                                        
+    ├── model.py                                                                       
+    ├── README.md                                                                      
+    ├── test.py                                                                        
     └── train.py       
 
 ```
