@@ -11,7 +11,7 @@ def init_params(key, layers):
 
     for in_dim, out_dim, k in zip(layers[:-1], layers[1:], keys):
         #Xavier/Glorot initialization
-        limit = jnp.sqrt(60/(in_dim + out_dim))
+        limit = jnp.sqrt(6.0/(in_dim + out_dim))
         w = jax.random.uniform(k, (in_dim, out_dim), minval=-limit, maxval=limit)
         b = jnp.zeros((out_dim,))
         
